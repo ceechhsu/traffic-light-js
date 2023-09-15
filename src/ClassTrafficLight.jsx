@@ -1,6 +1,10 @@
 import { Component } from "react";
 
 export class ClassTrafficLight extends Component {
+  state = {
+    trafficLightIndex: 0,
+  };
+
   render() {
     return (
       <div className="traffic-light-box">
